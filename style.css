@@ -54,7 +54,6 @@ main {
     border-radius: 5px;
     padding:20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
 
 .supervisor {
@@ -96,5 +95,8 @@ main {
     margin-top:10px;
 }
 
+/* Responsive style for Desktop*/
+@media only screen and (min-width: 992px) {
+    
 
-
+}
