@@ -47,8 +47,12 @@ main {
     justify-content: center;
 }
 
+.column {
+    display:flex;
+    flex-direction: column;
+}
+
 .card {
-    width: auto;
     height: 220px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -57,7 +61,7 @@ main {
 }
 
 .supervisor {
-    border-top:4px solid hsl(0, 78%, 62%);
+    border-top:4px solid hsl(180, 62%, 55%);
     background-image: url(/images/icon-supervisor.svg);
     background-repeat: no-repeat;
     background-position-x: 230px;
@@ -65,7 +69,7 @@ main {
 }
 
 .team-builder {
-    border-top:4px solid hsl(180, 62%, 55%);
+    border-top:4px solid hsl(0, 78%, 62%);
     background-image: url(/images/icon-team-builder.svg);
     background-repeat: no-repeat;
     background-position-x: 230px;
@@ -97,6 +101,28 @@ main {
 
 /* Responsive style for Desktop*/
 @media only screen and (min-width: 992px) {
+
+    html, body {
+        max-width: 1440px;  
+    }
+
+    main {
+        max-width:1440px;
+        justify-content: center;
+    }
+
+    .intro {
+        width:500px;
+    }
+
+    .card-container {
+        flex-direction: row;
+        align-items:center;
+    }
     
+    .card {
+        width:285px;
+        margin:20px;
+    }
 
 }
