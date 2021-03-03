@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+html, body {
+    margin: 0 auto;
+    max-width: 375px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: hsl(0, 0%, 64%)
+}
+body {
+    padding:25px
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+.light {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+
+}
+
+.heavy {
+    font-weight: 700;
+    color: hsl(234, 12%, 34%);
+}
+
+.intro {
+    width:100%;
+    margin: 0 auto;
+}
+
+main {
+    display:flex;
+}
+
+.card-container {
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    width: auto;
+    height: 220px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.supervisor {
+    border-top:4px solid hsl(0, 78%, 62%);
+    background-image: url(/images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y: 170px;
+}
+
+.team-builder {
+    border-top:4px solid hsl(180, 62%, 55%);
+    background-image: url(/images/icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y: 170px;
+}
+
+.karma {
+    border-top:4px solid hsl(34, 97%, 64%);
+    background-image: url(/images/icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y: 170px;
+}
+
+.calculator {
+    border-top:4px solid hsl(212, 86%, 64%);
+    background-image: url(/images/icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position-x: 230px;
+    background-position-y: 170px;
+}
+
+.title {
+    color: hsl(234, 12%, 34%);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:10px;
+}
+
+
+
